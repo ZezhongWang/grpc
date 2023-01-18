@@ -1,6 +1,7 @@
 [submodule "third_party/abseil-cpp"]
 	path = third_party/abseil-cpp
-	url = https://github.com/abseil/abseil-cpp.git
+	url = https://github.com/ZezhongWang/abseil-cpp.git
+	branch = lts_2022_06_23
 [submodule "third_party/benchmark"]
 	path = third_party/benchmark
 	url = https://github.com/google/benchmark
@@ -50,3 +51,5 @@
 	# generated file that makes Git consider the submodule dirty. This
 	# state can be ignored for day-to-day development on gRPC.
 	ignore = dirty
+[submodule "abseil-cpp"]
+	url = https://github.com/ZezhongWang/abseil-cpp.git
